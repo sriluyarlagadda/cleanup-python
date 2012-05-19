@@ -38,9 +38,9 @@ def getOldFilesFromDir(dir):
     getAllFilesFromDir(dir, False)
     print(files_list)
     for file in files_list:
+        pass
         #check if it is old last accessed
-        print(os.stat(file))
-    print(files_list.__len__())
+    print(files_list)
     
     
     
